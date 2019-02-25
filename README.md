@@ -17,7 +17,7 @@ Basic Test Automation Framework using selenium-webdriver, Mocha and Allure Repor
 - Support to Chrome browser
 
 ## How to write a test
-Tests are written written in the [filename].test.js inside the test folder
+Tests are written in the [filename].test.js inside the test folder
 
 ## How to use
 To run the test
@@ -31,10 +31,10 @@ $ npm run report
 ```
 
 ## Future improvements
-This is only basic testing framework with a lot of space for improvements like:
-- Implementing the Page Object Pattern to increase mainteinability
+This is only a basic testing framework with a lot of space for improvements like:
+- Implementing the Page Object Pattern to increase maintainability
 - Implement selenium-based functions on another file to increase code readability
-- Use chai or other assertion library to increase code readability
+- Use chai or other assertion libraries to increase code readability
 - Add multi-browser support
 - Add support for parallel testing
 - Add support for cloud testing (e.g. Browserstack, Saucelabs)

@@ -1,0 +1,5 @@
+# Reporters
+# spec
+# mocha-allure-reporter
+
+--reporter spec

@@ -4,7 +4,8 @@
   "description": "Basic Test Automation Framework based on selenium-webdriver, ESM for ES6 sintax and the Allure Reporter",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --no-timeouts -r esm"
+    "test": "mocha --no-timeouts -r esm",
+    "report": "allure generate --clean && allure open"
   },
   "keywords": [
     "selenium-webdriver",
@@ -14,9 +15,11 @@
   "author": "Adevanir Vieira",
   "license": "ISC",
   "devDependencies": {
+    "allure-commandline": "^2.9.0",
     "chromedriver": "^2.46.0",
     "esm": "^3.2.6",
     "mocha": "^6.0.1",
+    "mocha-allure-reporter": "^1.4.0",
     "selenium-webdriver": "^4.0.0-alpha.1"
   }
 }
